@@ -1,6 +1,85 @@
 # essentials
 
-Generated: 2025-10-31T19:40:16.590Z
+Generated: 2025-10-31T19:45:49.143Z
+
+## Getting started
+
+These commands use PowerShell; adjust for bash if needed.
+
+Install dependencies:
+
+```powershell
+npm ci
+```
+
+Run the dev server (Angular):
+
+```powershell
+npx ng serve --open
+```
+
+Start the app using npm script:
+
+```powershell
+npm run start
+```
+
+Build for production:
+
+```powershell
+npm run build
+```
+
+Run tests:
+
+```powershell
+npm test
+```
+
+## Available npm scripts
+
+- **build**: `ng build`
+- **ng**: `ng`
+- **start**: `ng serve`
+- **test**: `ng test`
+- **watch**: `ng build --watch --configuration development`
+
+## Dependencies
+
+- `@angular/animations`: ^18.0.0
+- `@angular/common`: ^18.0.0
+- `@angular/compiler`: ^18.0.0
+- `@angular/core`: ^18.0.0
+- `@angular/forms`: ^18.0.0
+- `@angular/platform-browser`: ^18.0.0
+- `@angular/platform-browser-dynamic`: ^18.0.0
+- `@angular/router`: ^18.0.0
+- `rxjs`: ~7.8.0
+- `tslib`: ^2.3.0
+- `zone.js`: ~0.14.3
+
+## Dev dependencies
+
+- `@angular-devkit/build-angular`: ^18.0.0
+- `@angular/cli`: ^18.2.21
+- `@angular/compiler-cli`: ^18.0.0
+- `@types/jasmine`: ~5.1.0
+- `jasmine-core`: ~5.1.0
+- `karma`: ~6.4.0
+- `karma-chrome-launcher`: ~3.2.0
+- `karma-coverage`: ~2.2.0
+- `karma-jasmine`: ~5.1.0
+- `karma-jasmine-html-reporter`: ~2.1.0
+- `typescript`: ~5.4.2
+
+## Project structure (top-level folders)
+
+- `.angular`
+- `src`
+
+## Angular components (detected)
+
+_No `*.component.ts` files detected under `src/`._
 
 ## Files in src/
 
