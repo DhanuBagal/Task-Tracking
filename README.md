@@ -1,6 +1,6 @@
 # essentials
 
-Generated: 2025-11-01T06:03:24.919Z
+Generated: 2025-11-01T18:49:43.240Z
 
 ## Getting started
 
@@ -85,6 +85,7 @@ _No `*.component.ts` files detected under `src/`._
 - `app/app.component.css`
 - `app/app.component.html`
 - `app/app.component.ts`
+- `app/dummmy_users.ts`
 - `app/header/header.companent.ts`
 - `app/header/header.component.css`
 - `app/header/header.component.html`
@@ -94,6 +95,12 @@ _No `*.component.ts` files detected under `src/`._
 - `assets/.gitkeep`
 - `assets/angular-logo.png`
 - `assets/task-management-logo.png`
+- `assets/users/user-1.jpg`
+- `assets/users/user-2.jpg`
+- `assets/users/user-3.jpg`
+- `assets/users/user-4.jpg`
+- `assets/users/user-5.jpg`
+- `assets/users/user-6.jpg`
 - `favicon.ico`
 - `index.html`
 - `main.ts`
