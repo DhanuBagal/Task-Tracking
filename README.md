@@ -1,6 +1,6 @@
 # essentials
 
-Generated: 2025-10-31T19:45:49.143Z
+Generated: 2025-11-01T06:03:24.919Z
 
 ## Getting started
 
@@ -74,7 +74,6 @@ npm test
 
 ## Project structure (top-level folders)
 
-- `.angular`
 - `src`
 
 ## Angular components (detected)
@@ -83,8 +82,6 @@ _No `*.component.ts` files detected under `src/`._
 
 ## Files in src/
 
-- `.DS_Store`
-- `app/.DS_Store`
 - `app/app.component.css`
 - `app/app.component.html`
 - `app/app.component.ts`
