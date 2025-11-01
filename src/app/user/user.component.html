@@ -1,6 +1,14 @@
 <div>
-    <button>
-        <img src="" alt="">
-        <span>Name</span>
+    <button (click)="onSelectUser()">
+
+        <!-- Property Binding without GETTER  -->
+        <!-- <img [src]="'assets/users/'+selectedUser.avatar" [alt]="selectedUser.name" /> -->
+
+        <!-- Property Binding using GETTER  -->
+         <img [src]="imagePath" [alt]="selectedUser.name" />
+        <span>{{selectedUser.name}}</span>
+
+        <!-- Attribute Binding Example -->
+        <!-- <p [attr.align]="prop">Left</p> -->
     </button>
 </div>

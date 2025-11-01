@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { DUMMY_USERS } from '../dummmy_users';
+
+const randomIndex = Math.floor(Math.random() * DUMMY_USERS.length);
 
 @Component({
   selector: 'app-user',
@@ -8,5 +11,16 @@ import { Component } from '@angular/core';
   styleUrl: './user.component.css'
 })
 export class UserComponent {
+  selectedUser = DUMMY_USERS[randomIndex];
 
+  // prop='left'; // For Attribute Binding Example
+
+  get imagePath(){
+    return 'assets/users/' + this.selectedUser.avatar;
+  }
+
+  onSelectUser(){
+    const randomIndex = Math.floor(Math.random() * DUMMY_USERS.length);
+    this.selectedUser = DUMMY_USERS[randomIndex];
+  }
 }
