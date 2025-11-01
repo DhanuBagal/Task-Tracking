@@ -1,6 +1,6 @@
 # essentials
 
-Generated: 2025-11-01T19:00:58.985Z
+Generated: 2025-11-01T19:06:33.549Z
 
 ## Getting started
 
